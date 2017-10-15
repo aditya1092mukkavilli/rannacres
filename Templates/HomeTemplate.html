@@ -1,0 +1,137 @@
+<div id="homepageparallel">
+        <!--<img src=images/Background.jpg alt="background" class="hoembackground">-->
+        </div>
+        <div id="blurbackground">
+            <div class="backgroundtext">
+                <p>RANN ACRES</p>
+                <p>Turning Dreams Into Reality</p>
+                <form>
+                    <input type="text" name="search" placeholder="Search..">
+                </form>
+              </div>
+        </div>
+    </div>
+
+
+<div class="makecenter">
+<div class="hometemplate">
+    <br>
+    <div id="buy">
+        <div class="post"> 
+              <div>
+                  <h3>Buy</h3>
+                  <br>
+                  <div class="details"ng-repeat="buy in details.buyDetails">
+                     <img ng-src={{buy.image}} alt="buimg" class="small-image">
+                     <div style="margin: 2px;">
+                     <br>
+                     <b>{{buy.name}}</b>
+                     <br>
+                     <p>{{buy.description}}</p>
+                     <br>
+                     <p><b>{{buy.bedrooms}}</b></p>
+                     <br>
+                     <p><b>{{buy.price}}</b></p>
+                     <br>
+                     <a ui-sref={{buy.state}} class="detailscolor">See Details</a>
+                     </div>
+                  </div>
+
+              </div>
+        </div>
+</div>
+    <div id="rent">
+        <div class="post"> 
+            <h3>Rent</h3><br>
+                        <div class="details"ng-repeat="buy in details.rentDetails">
+                           <img ng-src={{buy.image}} alt="buimg" class="small-image">
+                           <div style="margin: 2px;">
+                           <br>
+                           <b>{{buy.name}}</b>
+                           <br>
+                           <p>{{buy.description}}</p>
+                           <br>
+                           <p><b>{{buy.bedrooms}}</b></p>
+                           <br>
+                           <p><b>{{buy.price}}</b></p>
+                           <br>
+                           <a ui-sref={{buy.state}} class="detailscolor">See Details</a>
+                           </div>
+                        </div>
+      
+                    </div>
+              </div>
+    <div id="sell">
+            <div class="post"> 
+                <h3>Sell</h3><br>
+                            <div class="details"ng-repeat="buy in details.sellDetails">
+                               <img ng-src={{buy.image}} alt="buimg" class="small-image">
+                               <div style="margin: 2px;">
+                               <br>
+                               <b>{{buy.name}}</b>
+                               <br>
+                               <p>{{buy.description}}</p>
+                               <br>
+                               <p><b>{{buy.bedrooms}}</b></p>
+                               <br>
+                               <p><b>{{buy.price}}</b></p>
+                               <br>
+                               <a ui-sref={{buy.state}} class="detailscolor">See Details</a>
+                               </div>
+                            </div>
+          
+                        </div>
+                  </div>
+
+        <div id="Commerial">
+                <div class="post"> 
+                    <h3>Commerial</h3><br>
+                                <div class="details"ng-repeat="buy in details.commercialDetails">
+                                   <img ng-src={{buy.image}} alt="buimg" class="small-image">
+                                   <div style="margin: 2px;">
+                                   <br>
+                                   <b>{{buy.name}}</b>
+                                   <br>
+                                   <p>{{buy.description}}</p>
+                                   <br>
+                                   <p><b>{{buy.bedrooms}}</b></p>
+                                   <br>
+                                   <p><b>{{buy.price}}</b></p>
+                                   <br>
+                                   <a ui-sref={{buy.state}} class="detailscolor">See Details</a>
+                                   </div>
+                                </div>
+              
+                            </div>
+                      </div>
+                      <div id="Projects">
+                            <div class="post"> 
+                                <h3>Projects</h3><br>
+                                            <div class="details"ng-repeat="buy in details.projectsDetails">
+                                               <img ng-src={{buy.image}} alt="buimg" class="small-image">
+                                               <div style="margin: 2px;">
+                                               <br>
+                                               <b>{{buy.name}}</b>
+                                               <br>
+                                               <p>{{buy.description}}</p>
+                                               <br>
+                                               <p><b>{{buy.bedrooms}}</b></p>
+                                               <br>
+                                               <p><b>{{buy.price}}</b></p>
+                                               <br>
+                                               <a ui-sref={{buy.state}} class="detailscolor">See Details</a>
+                                               </div>
+                                            </div>
+                          
+                                        </div>
+                                  </div>
+                </div>
+            </div>   
+    <script> 
+        jQuery(document).ready(function() {
+                    jQuery('.post').addClass("hiddens").viewportChecker({
+                        classToAdd: 'visible animated fadeIn',
+                        offset: 100
+                       });
+                });
+            </script>

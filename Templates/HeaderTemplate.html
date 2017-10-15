@@ -1,0 +1,29 @@
+<div id="header" style="background-color:white">
+        <div class="header-logo">
+           <img src="images/Logo.jpg" alt="logo">
+           <nav>
+                <ul >
+                    <li>
+                        <a ng-click="NavigateTobuy($location.path())">Buy</a>
+                    </li>
+                    <li>
+                        <a ng-click="NavigateToRent($location.path())">Rent</a>
+                    </li>
+                    <li>
+                        <a ng-click="NavigateToSell($location.path())">Sell</a>
+                    </li>
+                    <li>
+                        <a ng-click="NavigateToCommerial($location.path())">Commerial</a>
+                    </li>
+                    <li>
+                        <a ng-click="NavigateToProjects($location.path())">Projects</a>       
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    
+
+    <div ui-view="realestate" autoscroll="false">
+
+    </div>

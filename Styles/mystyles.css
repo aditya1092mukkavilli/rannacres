@@ -1,0 +1,189 @@
+body
+{
+    font-family: 'Didact Gothic',sans-serif !important;
+    color:black !important;
+    font-size:14px;
+}
+
+nav
+{
+    display: inline-table;
+    position: absolute;
+    top: 40px;
+    right: 0px;
+}
+ul li {
+    display: inline;
+    margin: 16px;
+    font-size: 14px;
+}
+a 
+{
+  color:black !important;
+  cursor: pointer;
+}
+.makecenter
+{
+   width:80%;
+   margin:0 auto;
+}
+.hoembackground
+{
+    width: 100%;
+    height: 541px;
+}
+#blurbackground
+{
+    background-color: rgba(0, 0, 0, 0.57);
+    width: 100%;
+    height: 541px;
+    position: absolute;
+    top: 96px;
+}
+
+input[type=text] {
+    width: 400px;
+    color: black !important;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('/images/searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 60%;
+}
+
+.backgroundtext 
+{
+    margin-top: 100px;
+    font-family: 'Didact Gothic',sans-serif !important;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.hiddens{
+    opacity:0;
+}
+.visible{
+    opacity:1;
+}
+
+#homepageparallel
+{
+    background-image: url("/Images/Background.jpg");
+        height: 541px; 
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+.hometemplate
+{
+   width:90%;
+   margin:0 auto;
+  
+}
+.details
+{
+    display:inline-block;
+    width:30%;
+    height: 550px;
+    border:1px solid rgb(204, 204, 204);
+    margin:15px;
+    background-color:white;
+}
+.details:hover{
+    box-shadow: 6px 6px 6px #888888;
+}
+
+.small-image
+{
+    width:100%;
+    height:300px;
+}
+
+#buy
+{
+    height:650px;
+}
+#rent
+{
+    height:650px;
+}
+#sell
+{
+    height:650px;
+}
+#Projects
+{
+    height:650px;
+}
+#Commerial
+{
+  height:650px;
+}
+.detailscolor{
+    width: 100px;
+    height: 30px;
+    background-color: #ef5866;
+    padding: 10px;
+    color: #ffffff !important;
+    border-radius: 4px;
+}
+
+.detailscolor:hover
+{
+    background-color: #f52b43 !important;
+}
+
+#buyImagebg
+{
+    background-image: url("/Images/buy-big03.jpg");
+    height: 541px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.pricing{
+    width:100%;
+    height:370px;
+}
+.floatright
+{
+    width:50%;
+    float:right;
+}
+.floatleft
+{
+   width:40%;
+   float:left;
+   margin-top:10%;
+}
+.contactdetails{
+    width:100%;
+    height:370px;
+}
+.floatrightdetails
+{
+    width:40%;
+    float:right;
+    margin-top:10%;
+}
+.floatleftimg
+{
+    width:50%;
+    float:left;
+}

@@ -1,0 +1,52 @@
+<div class="buypage">
+    <div id="buyImagebg">
+
+    </div>
+    <br>
+    <br>
+    <div class="post makecenter">
+            <div ng-repeat="buy in displayBuy.fullDescription">
+                <h3>About Us</h3>
+                <br>
+        <p>
+            {{buy.description}}
+        </p>
+        <br>
+        <h3>Pricing</h3>
+        <br>
+        <div class="pricing post">
+        <div class="floatleft post">
+        <p>
+            {{buy.pricing}}
+        </p>
+        </div>
+        <div class="floatright post">
+            <img src="{{buy.images[0].buyimage01}}" alt="buydetails01" style="width:100%"/>
+        </div>
+        </div>
+        <br>
+        <h3>Contact Details</h3>
+        <br>
+        <div class="contactdetails post">
+        <div style="text-align:left" class="floatrightdetails post">   
+        <b>Name: </b><span>{{buy.contactDetails[0].Name}}</span><br><br>
+        <b>PhoneNumber: </b><span>{{buy.contactDetails[0].PhoneNo}}</span><br><br>
+        <b>Address: </b><span>{{buy.contactDetails[0].office}}</span><br><br>
+        </div>
+        <div class="floatleftimg post">
+            <img src="{{buy.images[0].buyimage02}}" alt="buydetails01" style="width:100%"/>
+        </div>
+        </div>
+    </div>
+
+</div>
+</div>
+
+<script> 
+        jQuery(document).ready(function() {
+                    jQuery('.post').addClass("hiddens").viewportChecker({
+                        classToAdd: 'visible animated fadeIn',
+                        offset: 100
+                       });
+                });
+            </script>
