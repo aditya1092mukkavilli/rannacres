@@ -80,7 +80,7 @@ input[type=text]:focus {
 
 #homepageparallel
 {
-    background-image: url("/Images/Background.jpg");
+    background-image: url("/images/Background.jpg");
         height: 541px; 
         background-attachment: fixed;
         background-position: center;
@@ -149,7 +149,7 @@ input[type=text]:focus {
 
 #buyImagebg
 {
-    background-image: url("/Images/buy-big03.jpg");
+    background-image: url("/images/buy-big03.jpg");
     height: 541px; 
     background-attachment: fixed;
     background-position: center;
